@@ -18,8 +18,11 @@ int main(int argc, char** argv) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     time = MPI_Wtime();
-    for (i = rank * n / size + 1; i < (rank + 1) * n / size; i++)
-        if (isprime(i)) count++;
+   /* for (i = rank * n / size + 1; i < (rank + 1) * n / size; i++)
+        if (isprime(2*i+1)) count++;*/
+
+    for (i = rank + 1; i <  n; i+=size)
+        if (isprime(2 * i + 1)) count++;
     time = MPI_Wtime() - time;
 
     printf("Processor %d finds %d primes in %lf\n", rank, count, time);
