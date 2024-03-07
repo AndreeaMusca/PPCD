@@ -1,11 +1,15 @@
 C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\Andreea\OneDrive\Desktop\facultate\ProjectCuda\x64\Debug\ProjectCuda.exe
-Hello world from process 0 of 2
-Hello world from process 1 of 2
 
 
+#include "C:\Program Files (x86)\Microsoft SDKs\MPI\Include\mpi.h"
+#pragma comment(lib, "C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\\msmpi.lib")
 
 
+//Lab1
+C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 8 C:\Users\Andreea\cloned_repos\PPCD\Lab1\x64\Debug\ProjectCuda.exe
 
-
-C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 8 C:\Users\Andreea\cloned_repos\PPCD\ProjectCuda\x64\Debug\ProjectCuda.exe
+//Lab2
 C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\Andreea\cloned_repos\PPCD\Lab2\x64\Debug\Lab2.exe
+
+
+//Lab3
