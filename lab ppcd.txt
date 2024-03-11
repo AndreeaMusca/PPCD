@@ -15,3 +15,6 @@ C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\
 //Lab3
 C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\Andreea\cloned_repos\PPCD\Lab3\Lab3-Suma\x64\Debug\Lab3-Suma.exe
 Time=0.083850   sum=10000000.00
+
+//Lab4
+C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\Andreea\cloned_repos\PPCD\Lab4\Lab4-InmultireMatrici\x64\Debug\Lab4-InmultireMatrici.exe
