@@ -18,3 +18,11 @@ Time=0.083850   sum=10000000.00
 
 //Lab4
 C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 C:\Users\Andreea\cloned_repos\PPCD\Lab4\Lab4-InmultireMatrici\x64\Debug\Lab4-InmultireMatrici.exe
+
+
+
+C:\Users\Andreea\cloned_repos\PPCD\Lab6\Lab6-BucketSort\x64\Debug
+
+
+//Lab6
+C:\Users\Andreea>"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 1 C:\Users\Andreea\cloned_repos\PPCD\Lab6\Lab6-BucketSort\x64\Debug\Lab6-BucketSort.exe
